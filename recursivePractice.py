@@ -1,4 +1,3 @@
-
 #### Counts down from a given number to 0.
 def countdown(n):
     if n < 0:
