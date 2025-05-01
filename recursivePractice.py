@@ -21,16 +21,13 @@ def reverse_string(s):
     if s == "":
         return ""
     return reverse_string(s[1:]) + s[0]
-# Example:
 print(reverse_string("hello"))  # Output: "olleh"
 
 ##### Classic factorial function.
 def factorial(n):
     if n == 0:
         return 1
-    return n * factorial(n - 1)
-
-# Example:
+    return n * factorial(n - 1) # If n is not 0, the function calls itself with n - 1
 print(factorial(5))  # Output: 120
 
 ######### Repeats a word recursively.
